@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #225ecc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+
+
+.container{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem  3rem ;
+    background-color: #c1cbda;
+    gap: 5rem;
+    border-radius: 2rem;
+}
+
+.review{
+    font-size: 2.5rem;
+    color: #225ecc;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    width: 100%;
+    height: 200px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.reviewer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.profile-pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* border: 1px solid #225ecc; */
+    background-image: url(https://images.unsplash.com/photo-1574182245530-967d9b3831af?q=80&w=3437&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.name{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+
+.rev{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.btns button{
+    
+    padding: 1.5rem 2rem;
+    border: none;
+    background-color: #225ecc;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 1.4rem;
+    cursor: pointer;
+    border-radius: 3rem;
+}
